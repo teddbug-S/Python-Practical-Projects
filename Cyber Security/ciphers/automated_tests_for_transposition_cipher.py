@@ -2,7 +2,7 @@ import random
 from textwrap import fill
 
 from transposition_cipher import cipher_text, decipher_text
-from hangman_comps import word_list
+from words import word_list
 
 
 class TestCipher:
