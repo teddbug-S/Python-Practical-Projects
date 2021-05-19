@@ -2,6 +2,7 @@
 
 def fizzbuzz(iterable: list) -> list:
     """ the famous fizzbuzz algorithm """
+    
     def replace(items, pos, new_item) -> None:
         """ Replaces an item in a list """
         items.remove(items[pos])
@@ -21,8 +22,8 @@ def fizzbuzz(iterable: list) -> list:
     
     return iterable
     
-
-my_list = [i for i in range(1, 16)]
-result = fizzbuzz(my_list)
-for num, res in zip(my_list, result):
-    print(f"{num} --> {res}")
+if __name__ == '__main__':
+    my_list = [i for i in range(1, 16)]
+    result = fizzbuzz(my_list)
+    for num, res in zip(my_list, result):
+        print(f"{num} --> {res}")
