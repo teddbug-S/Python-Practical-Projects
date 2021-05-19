@@ -1,7 +1,5 @@
 
-nums = [5, 3, 2, 7, 6, 22, 19, 4]
-
-def b_search(target, sequence):
+def binary_search(target, sequence):
     while True:
         mid = len(sequence)//2
         if target != sequence[mid]:
@@ -15,4 +13,6 @@ def b_search(target, sequence):
             print(f"Found {target} in {sequence} at {mid}.")
             break
 
-b_search(7, nums)
+if __name__ == '__main__':
+    nums = [5, 3, 2, 7, 6, 22, 19, 4]
+    binary_search(7, nums)
