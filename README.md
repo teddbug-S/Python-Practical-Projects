@@ -1,2 +1,4 @@
 # Python-Practical-Projects
-A repository for projects I've worked on since I begun learning how to code in Python.
+A repository of awesome projects written in python.
+Can be very useful for anyone learning python and feel 
+free to contribute!
